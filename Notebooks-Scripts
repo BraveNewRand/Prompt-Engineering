@@ -1,3 +1,19 @@
 /experiments
     experiment_notebook.ipynb
-    analysis_script.py
+A Jupyter notebook demonstrating how to use the generated prompts for various NLP tasks using different LLMs:
+
+
+from prompt_generation import generate_prompt
+from helper_functions import analyze_sentiment
+
+sentiment_task = "Sentiment Analysis"
+input_text = "Review the following text and determine its sentiment:"
+output_text = "Sentiment: {positive/negative/neutral}"
+
+text = "..."
+
+prompt = generate_prompt(sentiment_task, input_text, output_text)
+sentiment_result = analyze_sentiment(text)
+print(prompt.format(text=text))
+print(f"Predicted Sentiment: {sentiment_result}")
+
