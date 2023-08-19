@@ -1,3 +1,16 @@
 /code
-    prompt_generation.py
-    helper_functions.py
+    prompt_txt1.py:
+    def analyze_sentiment(text):
+    # Sentiment analysis logic here
+    return "positive"  # Replace with actual sentiment result
+
+
+
+
+
+
+    prompt_txt2.py:
+    def generate_prompt(task, input_text, output_text):
+    prompt = f"Task: {task}\nInput: {input_text}\nText: {{text}}\nOutput: {output_text}"
+    return prompt
+
