@@ -1,7 +1,32 @@
-/prompts
     /templates
-        prompt_template_1.txt
-        prompt_template_2.txt
+        prompt_template_1.txt: Sentiment Analysis
+        
     /examples
-        prompt_example_1.txt
-        prompt_example_2.txt
+        prompt_example_1.txt:
+        Task: "Review the following text and determine its sentiment:"
+        Text:
+        "{In the heart of a bustling city, a quaint little cafe stands nestled on a charming corner. The aroma of freshly brewed coffee mingles with 
+        the sweet scent of pastries, creating an inviting atmosphere that beckons people from all walks of life. The warm, rustic decor and soft jazz 
+        music playing in the background set the perfect stage for conversations and contemplation. Locals and tourists alike find solace in the cozy 
+        ambiance, spending hours engrossed in books, engaged in deep conversations, or simply lost in thought as they gaze out of the large windows. 
+        The friendly baristas greet each customer with a genuine smile, and the menu boasts an array of delectable treats catering to various palates.
+        Despite the occasional crowded moments, the cafe's patrons appreciate the sense of community it fosters. Whether you're seeking a serene morning 
+        alone, a quick catch-up with friends, or a quiet spot to work, this cafe offers a haven of comfort.}"
+        
+        Output: "Sentiment: {positive/negative/neutral}"
+
+
+
+
+        
+         prompt_example_2.txt:
+         Task: "Summarize the following article in 2-3 sentences:"
+         Text:
+        "{A sprawling forest, thick with ancient trees, stretches out under the soft embrace of sunlight. The air is crisp and filled with the earthy 
+        fragrance of moss-covered ground. Sunbeams pierce through the leaves, creating intricate patterns on the forest floor. Birds of vibrant plumage
+        flit between branches, their melodies forming a soothing natural symphony. A gentle stream meanders through the woods, its babbling waters 
+        adding to the tranquility. Hikers and nature enthusiasts find respite in the peaceful ambiance, where time seems to slow down. The dense 
+        foliage provides a sense of seclusion, allowing individuals to disconnect from the outside world and immerse themselves in the beauty 
+        of nature.}"
+
+        Output: "{summary}"
