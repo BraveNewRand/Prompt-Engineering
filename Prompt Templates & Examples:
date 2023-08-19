@@ -1,0 +1,7 @@
+/prompts
+    /templates
+        prompt_template_1.txt
+        prompt_template_2.txt
+    /examples
+        prompt_example_1.txt
+        prompt_example_2.txt
