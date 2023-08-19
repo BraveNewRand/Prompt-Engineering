@@ -1,4 +1,59 @@
 /docs
     introduction.md
-    usage_instructions.md
-    prompt_engineering_guide.md
+    # LLM Prompt Engineering Examples:
+
+Welcome to the LLM Prompt Engineering Examples repository! This repository is a collection of prompt engineering resources tailored for Language Model (LLM) developers. Prompt engineering is a crucial aspect of fine-tuning LLMs for various natural language processing tasks. This documentation provides you with templates, code snippets, and examples to effectively craft prompts and integrate them with LLMs.
+
+## Purpose
+
+The purpose of this repository is to help LLM developers understand and leverage prompt engineering techniques to enhance the performance of their models. By using carefully designed prompts, developers can achieve more accurate and contextually relevant results across a wide range of tasks.
+
+## Contents
+
+This repository contains the following:
+
+- Prompt templates and examples for different tasks.
+- Code snippets to facilitate prompt generation and interaction with LLMs.
+- Notebooks and scripts demonstrating prompt-based experiments.
+- Documentation explaining prompt engineering concepts and best practices.
+
+Feel free to explore the directories and files to find the resources that best suit your needs.
+
+
+
+
+
+
+
+    # Usage Instructions:
+
+This section provides step-by-step instructions on how to use the resources in this repository to enhance your LLM development with effective prompt engineering.
+
+## Using Prompt Templates
+
+The `/prompts/templates` directory contains predefined prompt templates for various tasks. To use them, follow these steps:
+
+1. Choose a template that matches your task (e.g., sentiment analysis, text generation).
+2. Copy the template and replace placeholders like `{text}` with the appropriate variables.
+3. Integrate the template into your code or experiment.
+
+## Generating Prompts with Code Snippets
+
+The `/code` directory contains code snippets that facilitate prompt generation. Here's how to use them:
+
+1. Import the `prompt_generation.py` module.
+2. Use the `generate_prompt` function to create prompts dynamically.
+3. Customize the task, input, and output texts as needed.
+
+Example:
+```python
+from prompt_generation import generate_prompt
+
+task = "Text Generation"
+input_text = "Given a topic, generate a paragraph of text:"
+output_text = "Generated Text: {text}"
+
+prompt = generate_prompt(task, input_text, output_text)
+print(prompt.format(text="This is a generated paragraph."))
+
+
