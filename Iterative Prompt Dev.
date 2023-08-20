@@ -1,0 +1,32 @@
+Here's an example of an iterative prompt development. This example involves using a language model to generate creative story ideas. Anyone can adapt this concept for different tasks and models:
+
+Project: Creative Story Idea Generator
+
+Iteration 1: Initial Prompt
+# Initial prompt: "Generate a creative story idea involving time travel and a mysterious artifact."
+response = generate_story_idea(prompt)
+print(response)
+
+
+Iteration 2: Adjusting for Clarity
+# Refined prompt: "Imagine a story where a character discovers an ancient pocket watch that allows them to travel through time. Write a brief summary of this adventure."
+response = generate_story_idea(prompt)
+print(response)
+
+
+Iteration 3: Adding Context
+# Refined prompt: "Write a short story about a historian who stumbles upon a mysterious pocket watch at an archaeological site. As they use the watch to travel through time, they uncover secrets that could reshape history."
+response = generate_story_idea(prompt)
+print(response)
+
+
+Iteration 4: Focusing on Themes
+# Refined prompt: "Craft a story set in a dystopian future where a rebel leader finds a time-traveling artifact. The artifact can alter events in the past, but at a great cost. Explore themes of sacrifice and the consequences of tampering with history."
+response = generate_story_idea(prompt)
+print(response)
+
+
+Iteration 5: Incorporating Feedback
+# Refined prompt: "Write a science fiction tale about an inventor who invents a device that lets people travel to different points in their own lives. However, using the device comes with a trade-off – the traveler loses a memory every time they jump. Explore the emotional impact on relationships and personal growth."
+response = generate_story_idea(prompt)
+print(response)
