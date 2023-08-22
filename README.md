@@ -1,5 +1,4 @@
-# Prompt-Engineering
-ChatGPT Prompt Engineering for Developers
+# Prompt-Engineering - ChatGPT Prompt Engineering for Developers
 
 This is a Prompt Engineering Guide:
 This guide aims to provide you with a comprehensive understanding of prompt engineering and how to design prompts that maximize the performance of Language Models (LLMs).
