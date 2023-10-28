@@ -1,0 +1,50 @@
+// This is an example for prompt engineering developers who are working on Natural Language Processing (NLP) projects, by using Python this example involves text summarization. 
+
+
+==== ORGIGINAL TEXT ====
+Title: Dell XPS 15: A Laptop That Exceeds Expectations
+
+I recently purchased the Dell XPS 15, and I must say it's an exceptional laptop. From its sleek design to its impressive performance, it's a complete package that has greatly enhanced my computing experience.
+
+One of the standout features is its lightning-fast speed. Equipped with a powerful processor and ample RAM, it handles multitasking effortlessly, making it perfect for work, gaming, and more. The 15.6-inch InfinityEdge display is a visual delight, offering vibrant colors and stunning clarity for all my multimedia needs.
+
+The build quality is exceptional, and the keyboard is comfortable for long hours of typing. I also appreciate the laptop's long-lasting battery life, which keeps me productive on the go without constantly searching for an outlet.
+
+In terms of connectivity, it has a good range of ports, and the Wi-Fi performance is robust.
+
+All in all, the Dell XPS 15 is a fantastic choice for those seeking a high-performance laptop from a trusted brand. It has certainly exceeded my expectations, and I highly recommend it to anyone in need of a reliable and powerful computing device.
+
+
+
+
+==== CODE ====
+Python code for extractive text summarization using the Gensim library:
+
+
+from gensim.summarization import summarize
+
+text = """
+"I recently purchased the Dell XPS 15, and I must say it's an exceptional laptop. From its sleek design to its impressive performance, it's a complete package that has greatly enhanced my computing experience.
+
+One of the standout features is its lightning-fast speed. Equipped with a powerful processor and ample RAM, it handles multitasking effortlessly, making it perfect for work, gaming, and more. The 15.6-inch InfinityEdge display is a visual delight, offering vibrant colors and stunning clarity for all my multimedia needs.
+
+The build quality is exceptional, and the keyboard is comfortable for long hours of typing. I also appreciate the laptop's long-lasting battery life, which keeps me productive on the go without constantly searching for an outlet.
+
+In terms of connectivity, it has a good range of ports, and the Wi-Fi performance is robust.
+
+All in all, the Dell XPS 15 is a fantastic choice for those seeking a high-performance laptop from a trusted brand. It has certainly exceeded my expectations, and I highly recommend it to anyone in need of a reliable and powerful computing device."
+"""
+
+# Extractive summarization
+extractive_summary = summarize(text, ratio=0.2)
+
+print("Extractive Summary:")
+print(extractive_summary)
+
+
+
+==== SUMMARIZED RESULTS ====
+"I recently purchased the Dell XPS 15, and I must say it's an exceptional laptop. From its sleek design to its impressive performance, it's a complete package that has greatly enhanced my computing experience. One of the standout features is its lightning-fast speed. Equipped with a powerful processor and ample RAM, it handles multitasking effortlessly, making it perfect for work, gaming, and more. The build quality is exceptional, and the keyboard is comfortable for long hours of typing. All in all, the Dell XPS 15 is a fantastic choice for those seeking a high-performance laptop from a trusted brand."
+
+
+
